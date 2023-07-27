@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@types/node": "^20.4.5",
+    "nuxt": "^3.6.5"
+  },
+  "dependencies": {
+    "@caisy/rich-text-vue-renderer": "^0.2.6",
+    "@nuxt/image": "^1.0.0-rc.1",
+    "@tailwindcss/typography": "^0.5.9",
+    "nuxt-graphql-client": "^0.2.29"
+  }
+}
